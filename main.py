@@ -9,5 +9,5 @@ data = nbia.getSeries(collection = "Head-Neck-PET-CT",
 
 print(len(data), 'Series returned')
 
-df = nbia.downloadSeries(data, number = 3, api_url = "restricted", format = "df")
+df = nbia.downloadSeries(data, number = 2661, api_url = "restricted", format = "df")
 display(df)
