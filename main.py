@@ -4,7 +4,7 @@ import requests
 
 nbia.getToken()
 
-data = nbia.getSeries(collection = "FDG-PET-CT-Lesions", 
+data = nbia.getSeries(collection = "LCTSC", 
                       api_url = "restricted")
 
 print(len(data), 'Series returned')
