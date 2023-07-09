@@ -4,10 +4,10 @@ import requests
 
 nbia.getToken()
 
-data = nbia.getSeries(collection = "Head-Neck-PET-CT", 
+data = nbia.getSeries(collection = "HEAD-NECK-RADIOMICS-HN1", 
                       api_url = "restricted")
 
 print(len(data), 'Series returned')
 
-df = nbia.downloadSeries(data, number = 2661, api_url = "restricted", format = "df")
+df = nbia.downloadSeries(data, api_url = "restricted", format = "df")
 # display(df)
