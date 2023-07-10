@@ -4,7 +4,7 @@ import requests
 
 nbia.getToken()
 
-data = nbia.getSeries(collection = "HCC-TACE-Seg", 
+data = nbia.getSeries(collection = "ACRIN-NSCLC-FDG-PET", 
                       api_url = "restricted")
 
 print(len(data), 'Series returned')
