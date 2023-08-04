@@ -1,2 +1,6 @@
 tcia-utils
 pandas
+pylibjpeg
+pylibjpeg-openjpeg
+pylibjpeg-libjpeg
+pydicom
